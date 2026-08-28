@@ -257,7 +257,8 @@
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="works-menu wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
 							<ul>
-								<li class="active" data-filter="*">All</li>
+								<li class="active" data-filter=".selected">Selected</li>
+								<li data-filter=":not(.selected)">All</li>
 								<!-- <li data-filter=".preprints">Preprints</li> -->
 								<li data-filter=".paper2026">2026</li>
 								<li data-filter=".paper2025">2025</li>
@@ -271,8 +272,16 @@
 				</div>
 				<div class="row">
 					<div class="isotop-active">
-						<div class="col-md-12 col-sm-12 col-xs-12 paper2021 paper2022 paper2023 paper2024 paper2025 paper2026">
+						<div class="col-md-12 col-sm-12 col-xs-12 selected paper2021 paper2022 paper2023 paper2024 paper2025 paper2026">
 							<p>† first authors with equal contribution, * corresponding authors</p>
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 selected">
+							<p>[5] <u>L Cao</u>, <u>W Zhang</u>, F Zhou, Y He, Y Long, <u>S Chen*</u>, <u>Y Wang*</u>. Robust annotation and discovery of novel cell types in single-cell ATAC-seq data through cross-modal reference alignment. <b>Genome Research</b>, 2026, Accepted. [<a href="#" target="_blank">link</a>, <a href="http://github.com/Ying-Lab/CARA" target="_blank">code</a>]</p>
+							<p>[4] <u>Y Jia†</u>, <u>S Li†</u>, <u>S Tang</u>, <u>K Gu</u>, <u>S Chen*</u>. MethyAnno: an interpretable automated annotation method leveraging multi-scale information and metric learning framework for scDNAm data. <b>Advanced Science</b>, 2026, Accepted. [<a href="#" target="_blank">link</a>, <a href="https://github.com/BioX-NKU/MethyAnno" target="_blank">code</a>]</p>
+							<p>[3] <u>R Li</u>, <u>Y Li</u>, <u>H Hua</u>, <u>Z Li</u>, H Su, <u>Y Zhang</u>, <u>Y Yao</u>, Y Wang, <u>S Chen*</u>, Y Xu*. CSFeatures improves the identification of cell-type-specific differential features in single-cell and spatial omics data. <b>Journal of Advanced Research</b>, 2026, Online. [<a href="https://doi.org/10.1016/j.jare.2026.05.027" target="_blank">link</a>, <a href="https://github.com/xuyungang/CSFeatures" target="_blank">code</a>]</p>
+							<p>[2] <u>S Tang</u>, <u>S Li</u>, G Zhang, A Lyu, <u>H Li</u>, <u>S Chen*</u>. Dissecting epigenetic heterogeneity in single-cell DNA methylomes with a unified framework. <b>Nature Communications</b>, 2026, Online. [<a href="https://www.nature.com/articles/s41467-026-73171-4" target="_blank">link</a>, <a href="https://github.com/BioX-NKU/scMethCraft" target="_blank">code</a>]</p>
+							<p>[1] <u>K Lang†</u>, <u>C Jia†</u>, <u>S Li†</u>, <u>Y Guo</u>, <u>D Hu</u>, <u>S Chen*</u>. High-fidelity bidirectional translation between single-cell transcriptomes and DNA methylomes with scBOND. <b>Genome Research</b>, 2026, 36(4):769-784. <a href="https://genome.cshlp.org/content/36/4" target="_blank"><b>Cover Article</b></a>. [<a href="https://doi.org/10.1101/gr.281350.125" target="_blank">link</a>, <a href="https://github.com/BioX-NKU/scBOND" target="_blank">code</a>]</p>
 						</div>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 paper2026">
@@ -283,7 +292,7 @@
 							<p>[51] <u>D Yu</u>, C Li, S Yan, L Guo, J Liang, <u>S Chen*</u>, W Bu*. Comparative evaluation of gene selection approaches in transcriptomics: bias correction and visualization with TransPro. <b>GigaScience</b>, 2026, giag057. [<a href="https://doi.org/10.1093/gigascience/giag057" target="_blank">link</a>, <a href="https://github.com/SSSYDYSSS/TransProR" target="_blank">code</a>]</p>
 							<p>[50] <u>Z Li</u>, X Cui, X Chen, Z Gao, Y Liu, Y Pan, <u>S Chen</u>, H Lv, L Zhai*, R Jiang*. Cross-modality representation and multi-sample integration of spatially resolved omics data. <b>Briefings in Bioinformatics</b>, 2026, 27(3):bbag214. [<a href="https://doi.org/10.1093/bib/bbag214" target="_blank">link</a>, <a href="https://github.com/lizhen18THU/PRESENT" target="_blank">code</a>]</p>
 							<p>[49] <u>S Tang</u>, <u>S Li</u>, G Zhang, A Lyu, <u>H Li</u>, <u>S Chen*</u>. Dissecting epigenetic heterogeneity in single-cell DNA methylomes with a unified framework. <b>Nature Communications</b>, 2026, Online. [<a href="https://www.nature.com/articles/s41467-026-73171-4" target="_blank">link</a>, <a href="https://github.com/BioX-NKU/scMethCraft" target="_blank">code</a>]</p>
-							<p>[48] <u>K Lang†</u>, <u>C Jia†</u>, <u>S Li†</u>, <u>Y Guo</u>, <u>D Hu</u>, <u>S Chen*</u>. High-fidelity bidirectional translation between single-cell transcriptomes and DNA methylomes with scBOND. <b>Genome Research</b>, 2026, 36(4):769-784. <a><b>Cover Article</b></a>. [<a href="https://doi.org/10.1101/gr.281350.125" target="_blank">link</a>, <a href="https://github.com/BioX-NKU/scBOND" target="_blank">code</a>]</p>
+							<p>[48] <u>K Lang†</u>, <u>C Jia†</u>, <u>S Li†</u>, <u>Y Guo</u>, <u>D Hu</u>, <u>S Chen*</u>. High-fidelity bidirectional translation between single-cell transcriptomes and DNA methylomes with scBOND. <b>Genome Research</b>, 2026, 36(4):769-784. <a href="https://genome.cshlp.org/content/36/4" target="_blank"><b>Cover Article</b></a>. [<a href="https://doi.org/10.1101/gr.281350.125" target="_blank">link</a>, <a href="https://github.com/BioX-NKU/scBOND" target="_blank">code</a>]</p>
 							<p>[47] C Sun, Z Qin, M Li, Y Li, R Tang, <u>S Chen</u>, Y Wang, Y Liu, J Wei, J Liu. A unified framework combining linear and 3D molecular features for robust drug-protein interaction prediction. <b>Cell Reports Methods</b>, 2026, 6(2):101304. [<a href="https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(26)00004-4" target="_blank">link</a>, <a href="https://github.com/JackieSun818/PointDPI" target="_blank">code</a>]</p>
 							<p>[46] Q Meng†, X Wu†, W Chen, Y Zhao, C Li, Z Wei, X Zeng, J Li, X Xi, S Chen, C Zhang, <u>S Chen</u>, J Li, X Wang, R Jiang, L Wei*, X Zhang*. A generic reference defined by consensus peaks for single-cell ATAC-seq data analysis. <b>Nature Communications</b>, 2026, 17:2522. [<a href="https://doi.org/10.1038/s41467-026-69461-6" target="_blank">link</a>, <a href="https://github.com/MengQiuchen/cPeaks" target="_blank">code</a>]</p>
 						</div>
