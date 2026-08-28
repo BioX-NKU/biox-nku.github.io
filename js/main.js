@@ -126,7 +126,7 @@ $(document).on('ready', function(){
 			
 			if ($.fn.isotope) {
                 $(".isotop-active").isotope({
-                    filter: '*',
+                    filter: '.selected',
                 });
 
 					$('.works-menu ul li').on('click', function() {
